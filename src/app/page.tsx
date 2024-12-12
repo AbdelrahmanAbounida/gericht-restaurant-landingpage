@@ -12,7 +12,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className=" mx-auto h-full bg-black">
+    <main className=" mx-auto h-full ">
       <Navbar />
       <Hero />
       <About />

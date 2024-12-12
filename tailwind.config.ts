@@ -12,7 +12,12 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         black: "#0C0B08",
+        gold: "#DCCA87",
+        gray: "#AAAAAA",
       },
+    },
+    fontFamily: {
+      cormorant: ["var(--font-cormorant)"],
     },
   },
   plugins: [],

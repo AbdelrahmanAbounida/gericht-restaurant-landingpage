@@ -1,9 +1,14 @@
 import type { Metadata } from "next";
-import { Open_Sans } from "next/font/google";
+import { Open_Sans, Cormorant } from "next/font/google";
 import "./globals.css";
 
 const open_sans = Open_Sans({
   subsets: ["latin"],
+});
+
+const cor = Cormorant({
+  subsets: ["latin"],
+  variable: "--font-cormorant",
 });
 
 export const metadata: Metadata = {
@@ -18,7 +23,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={` ${open_sans.className} antialiased h-screen`}>
+      <body
+        className={` ${open_sans.className} ${cor.variable} antialiased bg-black h-screen`}
+      >
         {children}
       </body>
     </html>
