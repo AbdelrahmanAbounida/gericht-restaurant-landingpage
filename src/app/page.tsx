@@ -22,7 +22,6 @@ export default function Home() {
       <OurLaurels />
       <PhotoGallery />
       <FindUs />
-      <NewsLetter />
       <Footer />
     </main>
   );
