@@ -8,7 +8,6 @@ import PhotoGallery from "@/components/photo-gallery";
 import TodaySpecial from "@/components/today-special";
 import VideoSection from "@/components/video-section";
 import WhatWeBelieve from "@/components/what-we-believe";
-import Image from "next/image";
 
 export default function Home() {
   return (

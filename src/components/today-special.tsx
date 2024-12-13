@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import MainButton from "./btn";
+import MainButton from "./extra/btn";
+import TitleWithSpoon from "./extra/title-with-spoon";
 
 interface MenuItemProps {
   title: string;
@@ -70,10 +71,11 @@ const TodaySpecial = () => {
         <div className="flex flex-col gap-2 w-full">
           {/** title */}
           <div className="font-cormorant mx-auto my-12 items-center justify-center flex flex-col gap-1">
-            <h3 className="text-white text-[24px] font-semibold">
-              Menu that fits you palatte
-            </h3>
-            <Image src={"/spoon.svg"} alt="spoon" width={40} height={9} />
+            <TitleWithSpoon
+              className="text-center flex flex-col justify-center items-center"
+              titleClass="text-white text-[24px] font-semibold"
+              title="Menu that fits you palatte"
+            />
             <h1 className="text-gold text-[64px] font-medium">
               {"Today’s Special"}
             </h1>

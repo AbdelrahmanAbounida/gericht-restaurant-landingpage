@@ -1,7 +1,8 @@
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import React from "react";
-import MainButton from "./btn";
+import MainButton from "./extra/btn";
+import TitleWithSpoon from "./extra/title-with-spoon";
 
 const About = () => {
   return (
@@ -57,13 +58,10 @@ const AboutSubSection = ({
       dir === "left" ? "items-end" : "items-start"
     )}
   >
-    <h1 className="text-gold text-[64px]">{title}</h1>
-    <Image
-      className={cn(dir == "left" && "rotate-180")}
-      src={"/spoon.svg"}
-      alt="spoon"
-      width={40}
-      height={9}
+    <TitleWithSpoon
+      imgClass={cn(dir == "left" && "rotate-180")}
+      titleClass=""
+      title={title}
     />
 
     <p
