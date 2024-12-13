@@ -4,6 +4,7 @@ import Footer from "@/components/footer";
 import Hero from "@/components/hero";
 import Navbar from "@/components/navbar";
 import NewsLetter from "@/components/newsletter";
+import OurLaurels from "@/components/our-laurels";
 import PhotoGallery from "@/components/photo-gallery";
 import TodaySpecial from "@/components/today-special";
 import VideoSection from "@/components/video-section";
@@ -18,6 +19,7 @@ export default function Home() {
       <TodaySpecial />
       <WhatWeBelieve />
       <VideoSection />
+      <OurLaurels />
       <PhotoGallery />
       <FindUs />
       <NewsLetter />
