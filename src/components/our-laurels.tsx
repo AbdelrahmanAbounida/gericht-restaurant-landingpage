@@ -36,7 +36,7 @@ const OurLaurels = () => {
       <Image
         alt="two-spoon"
         src={"two-spoon.svg"}
-        className="absolute top-2 left-2"
+        className="absolute top-[50px] left-[100px]"
         width={146}
         height={146}
       />
