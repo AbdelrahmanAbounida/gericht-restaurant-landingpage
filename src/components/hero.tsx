@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import MainButton from "./btn";
 
 const Hero = () => {
   return (
@@ -37,9 +38,7 @@ const Hero = () => {
               aliquam amet tellus
             </p>
 
-            <button className="bg-gold  hover:opacity-90 py-[8px] px-[32px] mt-5 font-semibold">
-              Explore Menu
-            </button>
+            <MainButton className="mt-5" btnTitle={"Explore Menu"} />
           </div>
         </div>
 

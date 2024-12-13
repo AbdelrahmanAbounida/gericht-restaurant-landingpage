@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import React from "react";
+import MainButton from "./btn";
 
 const About = () => {
   return (
@@ -74,8 +75,6 @@ const AboutSubSection = ({
       {description}
     </p>
 
-    <button className="bg-gold py-[8px] hover:opacity-90 px-[32px] w-[141px] font-semibold">
-      {btnTitle}
-    </button>
+    <MainButton btnTitle={btnTitle} />
   </div>
 );

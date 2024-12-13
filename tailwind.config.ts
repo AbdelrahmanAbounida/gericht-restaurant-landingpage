@@ -18,6 +18,7 @@ export default {
     },
     fontFamily: {
       cormorant: ["var(--font-cormorant)"],
+      sans: ["open-sans"],
     },
   },
   plugins: [],
